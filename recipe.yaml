@@ -1,7 +1,7 @@
-$engine: 2
+$engine: 3
 $onesync: on
 name: CFX Default
-version: 2.0.1
+version: 3.0.0
 author: Tabarra
 description: Recipe for the base resources required to run a minimal FiveM server.
 
@@ -9,11 +9,11 @@ tasks:
   # Download default CFX resources
   - action: download_github
     src: https://github.com/citizenfx/cfx-server-data
-    ref: 7680f316a7a128ca09d27101dac572098c111242
+    ref: f559e8bbb7a5c1ee8db1d26ed2cf7d29fa59e146
     subpath: resources
     dest: ./resources
 
   # Download default server.cfg
   - action: download_file
-    url: https://raw.githubusercontent.com/tabarra/CFX-Default-recipe/engine-2/server.cfg
+    url: https://raw.githubusercontent.com/tabarra/CFX-Default-recipe/main/server.cfg
     path: ./server.cfg
