@@ -9,7 +9,7 @@ tasks:
   # Download default CFX resources
   - action: download_github
     src: https://github.com/citizenfx/cfx-server-data
-    ref: f559e8bbb7a5c1ee8db1d26ed2cf7d29fa59e146
+    ref: 0210252be7c17745fa30220e12c19e0d2f19af02
     subpath: resources
     dest: ./resources
 
