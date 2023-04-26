@@ -1,7 +1,7 @@
 $engine: 3
 $onesync: on
-name: CFX Default FiveM
-description: Recipe for the base resources required to run a minimal FiveM server.
+name: CFX Default RedM
+description: Recipe for the base resources required to run a minimal RedM server.
 
 tasks: 
   # Download default CFX resources
@@ -11,7 +11,7 @@ tasks:
     subpath: resources
     dest: ./resources
 
-  # Download default server.cfg for FiveM
+  # Download default server.cfg for RedM
   - action: download_file
-    url: https://raw.githubusercontent.com/tabarra/CFX-Default-recipe/main/server.cfg
+    url: https://raw.githubusercontent.com/tabarra/CFX-Default-recipe/main/server_redm.cfg
     path: ./server.cfg
