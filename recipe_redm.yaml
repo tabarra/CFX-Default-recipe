@@ -11,6 +11,10 @@ tasks:
     subpath: resources
     dest: ./resources
 
+  # Remove the old chat resource
+  - action: remove_path
+    path: ./resources/[gameplay]/chat
+
   # Download default server.cfg for RedM
   - action: download_file
     url: https://raw.githubusercontent.com/tabarra/CFX-Default-recipe/main/server_redm.cfg
